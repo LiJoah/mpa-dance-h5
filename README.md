@@ -1,3 +1,7 @@
+# mpa-dance-h5
+
+舞蹈学校微信公众号项目
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
