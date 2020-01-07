@@ -59,6 +59,7 @@
     "style-loader": "1.0.0",
     "terser-webpack-plugin": "2.2.1",
     "ts-pnp": "1.1.5",
+    "tslint": "^5.20.1",
     "typescript": "~3.7.2",
     "url-loader": "2.3.0",
     "webpack": "4.41.2",
@@ -88,21 +89,21 @@
   },
   "jest": {
     "roots": [
-      "<rootDir>/src"
+      "<rootDir>/tests"
     ],
     "collectCoverageFrom": [
-      "src/**/*.{js,jsx,ts,tsx}",
+      "tests/**/*.{js,jsx,ts,tsx}",
       "!src/**/*.d.ts"
     ],
     "setupFiles": [
       "react-app-polyfill/jsdom"
     ],
     "setupFilesAfterEnv": [
-      "<rootDir>/src/setupTests.ts"
+      "<rootDir>/tests/setupTests.ts"
     ],
     "testMatch": [
-      "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
-      "<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
+      "<rootDir>/tests/**/__tests__/**/*.{js,jsx,ts,tsx}",
+      "<rootDir>/tests/**/*.{spec,test}.{js,jsx,ts,tsx}"
     ],
     "testEnvironment": "jest-environment-jsdom-fourteen",
     "transform": {
@@ -141,7 +142,5 @@
       "react-app"
     ]
   },
-  "devDependencies": {
-    "ts-lint": "^4.5.1"
-  }
+  "devDependencies": {}
 }

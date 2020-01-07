@@ -1,0 +1,80 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*"
+    ]
+  },
+  "jsRules": {},
+  "rules": {
+    "object-literal-sort-keys": false,
+    "trailing-comma": false,
+    "no-console": false,
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "avoid-template"
+    ],
+    "variable-name": [
+      true,
+      "check-format",
+      "ban-keywords",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "interface-name": false,
+    "max-line-length": false,
+    "ban-types": [
+      true,
+      [
+        "Object",
+        "Use {} instead."
+      ],
+      [
+        "String",
+        "Use string instead"
+      ],
+      [
+        "Number",
+        "Use number instead"
+      ],
+      [
+        "Array",
+        "Use type[] instead"
+      ]
+    ],
+    "prefer-for-of": false,
+    "one-variable-per-declaration": false,
+    "no-shadowed-variable": false,
+    "jsdoc-format": false,
+    "no-empty": [
+      true,
+      "allow-empty-functions"
+    ],
+    "prefer-const": false,
+    // don't use (for .. in ..) loop in any instance object
+    "forin": false,
+    "no-namespace": false,
+    "radix": false,
+    "max-classes-per-file": false,
+    "object-literal-key-quotes": [
+      true,
+      "as-needed"
+    ],
+    "only-arrow-functions": false,
+    "unified-signatures": false,
+    "no-unused-expression": [
+      true,
+      "allow-new"
+    ],
+    "space-before-function-paren": false
+  },
+  "rulesDirectory": []
+}
