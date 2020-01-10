@@ -4,9 +4,9 @@ sessionName="mpa-dance-h5"
 tmux has-session -t $sessionName
 hasSession=$?
 
-if [ "$hasSession" = "0" ];then
-    tmux attach -t $sessionName
-    exit 0
+if [ "$hasSession" = "0" ]; then
+  tmux attach -t $sessionName
+  exit 0
 fi
 
 echo "Starting dev session for $sessionName"
