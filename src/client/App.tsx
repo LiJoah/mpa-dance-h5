@@ -14,3 +14,7 @@ const App: React.FC = () => {
 }
 
 export default App
+
+// TODO:
+// "pre-commit": "lint-staged",
+// "post-merge": "install-deps-postmerge"

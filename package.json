@@ -1,7 +1,7 @@
 {
-  "name": "react-ssr-setup",
-  "version": "5.0.0",
-  "author": "Manuel Bieh <npm@manuelbieh.de> (https://github.com/manuelbieh)",
+  "name": "mpa-dance-h5",
+  "version": "0.0.1",
+  "author": "jgolang.k@gmail.com",
   "license": "MIT",
   "engines": {
     "node": ">=10.15.0",
