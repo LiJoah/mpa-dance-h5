@@ -25,7 +25,6 @@ export default {
   entry: [
     // 解决模块热更新websocket的一些问题。
     isDev && require.resolve('react-dev-utils/webpackHotDevClient'),
-
     // 直接将 babel core-js/stable 打包进入到 bundle
     require.resolve('core-js/stable'),
     require.resolve('regenerator-runtime/runtime'),
