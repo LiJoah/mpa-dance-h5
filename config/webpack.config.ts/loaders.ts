@@ -227,7 +227,12 @@ export const client = [
 export const server = [
   {
     // oneOf:规则数组，当规则匹配时，只使用第一个匹配规则
-    oneOf: [babelLoader, cssModuleLoaderServer, cssLoaderServer, urlLoaderServer, fileLoaderServer]
+    oneOf: [
+      babelLoader,
+      cssModuleLoaderServer,
+      cssLoaderServer,
+      urlLoaderServer,
+      fileLoaderServer]
   }
 ]
 

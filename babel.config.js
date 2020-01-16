@@ -18,6 +18,8 @@ module.exports = {
     '@babel/proposal-class-properties',
     '@babel/proposal-optional-chaining',
     '@babel/syntax-dynamic-import',
+    '@babel/transform-modules-commonjs',
+    '@babel/plugin-transform-runtime',
     'macros',
   ],
   env: {

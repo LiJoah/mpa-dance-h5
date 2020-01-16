@@ -28,11 +28,12 @@
     "noEmit": true,
     "jsx": "react",
     "typeRoots": [
-      "./typings",
+      "src/typings",
       "node_modules/@types",
     ],
   },
   "include": [
-    "src", "tests"
+    "src/**/*",
+    "tests"
   ]
 }

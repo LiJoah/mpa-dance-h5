@@ -38,6 +38,8 @@ export default {
     // path: isProd ? paths.clientDist : undefined,
     filename: isProd ? 'client/js/[name].[contenthash:8].js' : 'client/js/bundle.js',
     publicPath: paths.publicPath,
+    hotUpdateChunkFilename: !isProd ? '[id].[hash].hot-update.js' : '',
+    hotUpdateMainFilename: isProd ? '' : '[hash].hot-update.json',
     // NOTE: 告诉 webpack 在 输出文件到指定位置 时，
     // 使用 未来的版本， 它允许输出以后 释放内存。
     // 如果还存在插件会使用到资源, 那么会出现报错

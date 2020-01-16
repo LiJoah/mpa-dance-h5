@@ -49,9 +49,9 @@ const paths = {
   srcServer: resolveApp('src/server'),
   types: resolveApp('node_modules/@types'),
   // NOTE: prod 定义 cdn 域名, 注意: 路径不能写成 "dist/", 否则会定位不到对应的文件, 必须是: "/dist/"
-  publicPath: isProd ? '' : '/dist/',
+  publicPath: isProd ? '' : 'http://localhost:3000/dist/',
   // 这个是填补 html 中的 PUBLIC_URL 变量
-  publicUrl: isProd ? 'client/' : '/',
+  publicUrl: isProd ? 'client/' : 'http://localhost:3000/',
   appPublic: resolveApp('public'),
   appPackageJson: resolveApp('package.json'),
   proxySetup: resolveApp('./setupProxy.ts'),

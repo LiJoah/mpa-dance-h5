@@ -7,8 +7,7 @@ import WebpackDevServer from 'webpack-dev-server'
 import { DANGEROUSLY_DISABLE_HOST_CHECK, host, isHttps } from '../constans'
 import paths from '../paths'
 
-export default function(proxy, allowedHost): WebpackDevServer.Configuration {
-  console.log(paths.appDist)
+export default function (proxy, allowedHost): WebpackDevServer.Configuration {
   return {
     disableHostCheck: !proxy || DANGEROUSLY_DISABLE_HOST_CHECK,
 
