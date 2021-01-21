@@ -40,7 +40,7 @@
     "history": "^4.10.1",
     "i18next": "^19.0.2",
     "i18next-xhr-backend": "^3.2.2",
-    "immer": "^5.1.0",
+    "immer": "^8.0.1",
     "koa": "^2.11.0",
     "koa-router": "^7.4.0",
     "mkdirp": "^0.5.1",
