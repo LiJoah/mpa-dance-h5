@@ -167,7 +167,7 @@
     "prettier": "1.19.1",
     "promise": "^8.0.3",
     "puppeteer": "^2.0.0",
-    "react-dev-utils": "^10.0.0",
+    "react-dev-utils": "^11.0.4",
     "redux-mock-store": "^1.5.4",
     "regenerator-runtime": "^0.13.2",
     "stats-webpack-plugin": "^0.7.0",
